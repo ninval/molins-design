@@ -50,19 +50,39 @@ height: 100vh;
 
 .vid{
 
-	padding: 60px 100px;
-	width: 100%;
-	
+width: 100%;
+height: 60vh;
 
-
+	margin-top: 100px;
+padding: 10px;
 }
 
-@media screen and (min-width: 769px) {
+
+
+@media screen and (min-width: 480px) {
 
 
 .vid{
+	
+
+	padding: 80px 70px;
 	width: 100%;
 	height: 100vh;
+	
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+.vid{
+	
+	margin-top: 50px;
+	padding: 60px 70px;
+	width: 100%;
+	height: 90vh;
+	
 	}
 }
 
@@ -448,7 +468,6 @@ display: none;
     background-size: cover;
     /* margin-bottom: 50px; */
     margin-left: 20px;
-    margin-right: auto;
     cursor: pointer;
     height: 2.5rem;
     width: 2.5rem;
@@ -559,11 +578,6 @@ display: flex;
     margin-right: auto;
     margin-bottom: 100px;
 }
-
-
-
-
-
 /* ======SERVICIOS=======*/
 
 
@@ -571,17 +585,17 @@ display: flex;
 
 	margin-left: auto;
 	margin-right: auto;
-	width: 80vh
+	width: 100%;
 	margin-top:30px;
 
 
 
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
 
 .servicios_container{
 	display: block;
-	width: 80vh;
+	width: 70vw;
 	padding-bottom: 25px;
 	margin-top: 30px;
 
@@ -614,12 +628,12 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-top: 50px;
 
 }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:768px) {
 
 .servicios_total {
     margin-left: auto;
@@ -628,6 +642,8 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
+    width: 80vw;
 
 }
 }
@@ -812,7 +828,6 @@ width: 48px;
 }
 
 
-
 /*======PROYECTOS======*/
 
 .proyectos_btn{
@@ -855,13 +870,13 @@ width: 48px;
 }
 
 
+.coti_botones_juntos {
+    position: relative;
+    display: block;
+    width: 100vw;
+    margin-left: 30%;
+    	margin-right: 0;
 
-.coti_botones_juntos{
-	position: relative;
-	display: block;
-	width: 100vw;
-    margin-left: 40%;
-    margin-right: 40%;
 }
 @media screen and (min-width: 769px) {
 
@@ -998,6 +1013,30 @@ width: 48px;
 
 
 /*=====COTIZACION====*/
+
+
+
+
+
+.cotizaciones_content{
+	display: block;
+	margin:auto;
+}
+
+@media screen and (min-width: 769px) {
+
+
+
+.cotizaciones_content{
+	display: flex;
+   justify-content: center;
+   align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+}
+
 
 
 
@@ -1327,34 +1366,35 @@ right: 80px;
 
 .imagen_cont {
 	display:block;
-	margin:auto;
 
-	position: absolute;
+
 	width: 	100%;
 	
 
 }
 
 
-.fotocontenedor{
-	width:100vw;
-	display: block;
-position: 	absolute;
-
+.fotocontenedor {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display:block;
+	text-align: center;
 }
-
 
 
 .foto_contacto{
 	width:  186px;
-		display: block;
+	display: block;
     vertical-align: middle;
+    text-align: center;
 
 }
 
 
 .contact_formulario {
-    padding: 60px;
+    padding: 40px;
     position: relative;
     display: flex;
     background-color: #fff;
@@ -1364,7 +1404,6 @@ position: 	absolute;
     margin: 10px;
 
 }
-
 
 
 @media screen and (min-width: 480px) {
@@ -1404,14 +1443,13 @@ position: 	absolute;
 
 
 .contact_central{
-
-  	position: relative;
-  	width: 100vw;
-	flex-direction: column; 
-	justify-content: center;
-	margin-left:25vw;
-	margin-right:25vw;
-	margin-top: 245px;
+    position: relative;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 180px;
 
 	   
 	}
